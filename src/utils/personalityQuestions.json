@@ -1,0 +1,22 @@
+[
+  {
+    "text": "I love attending music festivals and concerts.",
+    "options": ["Strongly Agree", "Agree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "text": "I often seek solitude to gather my thoughts.",
+    "options": ["Strongly Agree", "Agree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "text": "I thrive when collaborating with others on tasks.",
+    "options": ["Strongly Agree", "Agree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "text": "Starting a chat with unfamiliar people comes naturally to me.",
+    "options": ["Strongly Agree", "Agree", "Disagree", "Strongly Disagree"]
+  },
+  {
+    "text": "I get a thrill from addressing a large audience.",
+    "options": ["Strongly Agree", "Agree", "Disagree", "Strongly Disagree"]
+  }
+]
