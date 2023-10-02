@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import  personalityQuestions  from "../utils/personalityQuestions.json";
+import Questions from "../utils/personalityQuestions.json";
 import Question from "./Question";
 import AppButton from "./AppButton";
 import Result from "./Result";
@@ -9,6 +9,8 @@ function Test() {
     "You are more of an Introvert.",
     "You are more of an Extrovert.",
   ];
+
+  const personalityQuestions = Questions.sort(() => 0.5 - Math.random());
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOptions, setSelectedOptions] = useState(
     new Array(personalityQuestions.length).fill(null)
